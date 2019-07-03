@@ -12,6 +12,12 @@
 		BD1BF80B22C559E500CA38C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1BF80922C559E500CA38C1 /* Main.storyboard */; };
 		BD1BF80D22C559E700CA38C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1BF80C22C559E700CA38C1 /* Assets.xcassets */; };
 		BD1BF81022C559E700CA38C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1BF80E22C559E700CA38C1 /* LaunchScreen.storyboard */; };
+		BD1BF83622CCFEFF00CA38C1 /* HowWeWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1BF83522CCFEFF00CA38C1 /* HowWeWorkViewController.swift */; };
+		BD1BF83822CCFFDE00CA38C1 /* OurTeachingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1BF83722CCFFDE00CA38C1 /* OurTeachingsViewController.swift */; };
+		BD1BF83A22CCFFED00CA38C1 /* LatestNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1BF83922CCFFED00CA38C1 /* LatestNewsViewController.swift */; };
+		BD1BF83C22CCFFF700CA38C1 /* PodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1BF83B22CCFFF700CA38C1 /* PodcastViewController.swift */; };
+		BD1BF83E22CD000400CA38C1 /* UpcomingEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1BF83D22CD000400CA38C1 /* UpcomingEventsViewController.swift */; };
+		BD1BF84022CD000E00CA38C1 /* MembersAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1BF83F22CD000E00CA38C1 /* MembersAreaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		BD1BF80C22C559E700CA38C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD1BF80F22C559E700CA38C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD1BF81122C559E700CA38C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1BF83522CCFEFF00CA38C1 /* HowWeWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowWeWorkViewController.swift; sourceTree = "<group>"; };
+		BD1BF83722CCFFDE00CA38C1 /* OurTeachingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurTeachingsViewController.swift; sourceTree = "<group>"; };
+		BD1BF83922CCFFED00CA38C1 /* LatestNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestNewsViewController.swift; sourceTree = "<group>"; };
+		BD1BF83B22CCFFF700CA38C1 /* PodcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastViewController.swift; sourceTree = "<group>"; };
+		BD1BF83D22CD000400CA38C1 /* UpcomingEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsViewController.swift; sourceTree = "<group>"; };
+		BD1BF83F22CD000E00CA38C1 /* MembersAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersAreaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,12 @@
 				BD1BF80522C559E500CA38C1 /* AppDelegate.swift */,
 				BD1BF80722C559E500CA38C1 /* ViewController.swift */,
 				BD1BF80922C559E500CA38C1 /* Main.storyboard */,
+				BD1BF83522CCFEFF00CA38C1 /* HowWeWorkViewController.swift */,
+				BD1BF83722CCFFDE00CA38C1 /* OurTeachingsViewController.swift */,
+				BD1BF83922CCFFED00CA38C1 /* LatestNewsViewController.swift */,
+				BD1BF83B22CCFFF700CA38C1 /* PodcastViewController.swift */,
+				BD1BF83D22CD000400CA38C1 /* UpcomingEventsViewController.swift */,
+				BD1BF83F22CD000E00CA38C1 /* MembersAreaViewController.swift */,
 				BD1BF80C22C559E700CA38C1 /* Assets.xcassets */,
 				BD1BF80E22C559E700CA38C1 /* LaunchScreen.storyboard */,
 				BD1BF81122C559E700CA38C1 /* Info.plist */,
@@ -135,6 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1BF83822CCFFDE00CA38C1 /* OurTeachingsViewController.swift in Sources */,
+				BD1BF83E22CD000400CA38C1 /* UpcomingEventsViewController.swift in Sources */,
+				BD1BF83A22CCFFED00CA38C1 /* LatestNewsViewController.swift in Sources */,
+				BD1BF83622CCFEFF00CA38C1 /* HowWeWorkViewController.swift in Sources */,
+				BD1BF83C22CCFFF700CA38C1 /* PodcastViewController.swift in Sources */,
+				BD1BF84022CD000E00CA38C1 /* MembersAreaViewController.swift in Sources */,
 				BD1BF80822C559E500CA38C1 /* ViewController.swift in Sources */,
 				BD1BF80622C559E500CA38C1 /* AppDelegate.swift in Sources */,
 			);
