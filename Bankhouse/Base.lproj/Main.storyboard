@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="M&amp;M" translatesAutoresizingMaskIntoConstraints="NO" id="UeA-vJ-VO7">
-                                        <rect key="frame" x="0.0" y="0.0" width="414.00000000000023" height="190"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="190"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="IzU-Cp-nPw">
                                         <rect key="frame" x="0.0" y="195" width="414" height="189.5"/>
