@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9xo-zB-9qc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OKT-2x-Zlz">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -19,16 +19,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="eWG-9N-Zp2">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="M&amp;M" translatesAutoresizingMaskIntoConstraints="NO" id="UeA-vJ-VO7">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="193.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="181.5"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IzU-Cp-nPw">
-                                        <rect key="frame" x="0.0" y="193.5" width="414" height="193.5"/>
+                                        <rect key="frame" x="0.0" y="181.5" width="414" height="181"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96T-uS-WPA">
-                                                <rect key="frame" x="0.0" y="0.0" width="207" height="193.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="181"/>
                                                 <color key="backgroundColor" red="0.90196078431372551" green="0.11372549019607843" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -41,7 +41,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjM-fo-qM3">
-                                                <rect key="frame" x="207" y="0.0" width="207" height="193.5"/>
+                                                <rect key="frame" x="207" y="0.0" width="207" height="181"/>
                                                 <color key="backgroundColor" red="0.90196078430000004" green="0.1137254902" blue="0.094117647060000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -56,10 +56,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="9C7-if-K9I">
-                                        <rect key="frame" x="0.0" y="387" width="414" height="193.5"/>
+                                        <rect key="frame" x="0.0" y="362.5" width="414" height="181.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UbY-eE-Jl3">
-                                                <rect key="frame" x="0.0" y="0.0" width="207" height="193.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="181.5"/>
                                                 <color key="backgroundColor" red="0.90196078430000004" green="0.1137254902" blue="0.094117647060000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -71,7 +71,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVg-cu-IOr">
-                                                <rect key="frame" x="207" y="0.0" width="207" height="193.5"/>
+                                                <rect key="frame" x="207" y="0.0" width="207" height="181.5"/>
                                                 <color key="backgroundColor" red="0.90196078430000004" green="0.1137254902" blue="0.094117647060000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -85,10 +85,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gQ7-Op-RPh">
-                                        <rect key="frame" x="0.0" y="580.5" width="414" height="193.5"/>
+                                        <rect key="frame" x="0.0" y="544" width="414" height="181"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0of-IZ-Asq">
-                                                <rect key="frame" x="0.0" y="0.0" width="207" height="193.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="181"/>
                                                 <color key="backgroundColor" red="0.90196078430000004" green="0.1137254902" blue="0.094117647060000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -100,7 +100,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Et-ar-TJL">
-                                                <rect key="frame" x="207" y="0.0" width="207" height="193.5"/>
+                                                <rect key="frame" x="207" y="0.0" width="207" height="181"/>
                                                 <color key="backgroundColor" red="0.90196078430000004" green="0.1137254902" blue="0.094117647060000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -233,7 +233,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KnR-sb-uKE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="851" y="1095"/>
+            <point key="canvasLocation" x="812" y="1096"/>
         </scene>
         <!--Our Teachings View Controller-->
         <scene sceneID="L72-Fy-YCv">
@@ -283,10 +283,11 @@
             </objects>
             <point key="canvasLocation" x="851" y="-825"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Home-->
         <scene sceneID="T53-6d-sse">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9xo-zB-9qc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="homeGlyph" id="MOY-X0-dNh"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YWE-cd-gbj">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -301,8 +302,98 @@
             </objects>
             <point key="canvasLocation" x="-57.971014492753625" y="98.4375"/>
         </scene>
+        <!--Notepad-->
+        <scene sceneID="i3T-8M-Ewz">
+            <objects>
+                <viewController id="yQq-23-fUY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iYQ-3h-YaU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Gqc-YY-1xM"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Notepad" image="notepadGlyph" id="SLi-HK-tur"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CW9-8m-a9V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2167" y="900"/>
+        </scene>
+        <!--Favorites-->
+        <scene sceneID="wFN-q2-T1b">
+            <objects>
+                <viewController id="gsN-dX-4I8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sXI-O1-ru3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="eBp-4J-FTL"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Favorites" image="starGlyph" id="M8g-yC-Bu8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OzF-jX-dRq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1416" y="900"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="bob-g1-q7h">
+            <objects>
+                <viewController id="Rbl-nj-RZE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TIA-NF-xNJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="kij-id-C4Q"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Search" image="searchGlyph" id="utW-dU-4Tf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rqv-tv-FX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-735" y="900"/>
+        </scene>
+        <!--More-->
+        <scene sceneID="iYa-bf-bRr">
+            <objects>
+                <viewController id="fra-gx-EQO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qqn-SL-1dN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="aT2-z0-Kii"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="More" image="moreGlyph" id="CCT-ho-1LC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dAz-oV-U83" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-35" y="909"/>
+        </scene>
+        <!--My Tab Bar Controller-->
+        <scene sceneID="1ES-Tm-cj3">
+            <objects>
+                <tabBarController id="OKT-2x-Zlz" customClass="MyTabBarController" customModule="Bankhouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nA7-yt-Jgv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9xo-zB-9qc" kind="relationship" relationship="viewControllers" id="AP1-JT-TgO"/>
+                        <segue destination="yQq-23-fUY" kind="relationship" relationship="viewControllers" id="MXq-xG-OOj"/>
+                        <segue destination="gsN-dX-4I8" kind="relationship" relationship="viewControllers" id="bcw-1m-Gft"/>
+                        <segue destination="Rbl-nj-RZE" kind="relationship" relationship="viewControllers" id="ej1-zw-k3i"/>
+                        <segue destination="fra-gx-EQO" kind="relationship" relationship="viewControllers" id="ykv-m9-kZg"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9zC-lF-N4W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1023" y="98"/>
+        </scene>
     </scenes>
     <resources>
         <image name="M&amp;M" width="1425" height="896"/>
+        <image name="homeGlyph" width="30" height="30"/>
+        <image name="moreGlyph" width="30" height="30"/>
+        <image name="notepadGlyph" width="30" height="30"/>
+        <image name="searchGlyph" width="30" height="30"/>
+        <image name="starGlyph" width="30" height="30"/>
     </resources>
 </document>
