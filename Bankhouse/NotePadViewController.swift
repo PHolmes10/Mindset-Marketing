@@ -14,6 +14,8 @@ class NotePadViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.tableView.backgroundColor = UIColor(red: 45.0/255.0, green: 45.0/255.0, blue: 45.0/255.0, alpha: 1.0)
 
     }
 
@@ -27,14 +29,24 @@ class NotePadViewController: UITableViewController {
         
         cell.textLabel?.text = itemArray[indexPath.row]
         
+        cell.backgroundColor = UIColor(red: 45.0/255.0, green: 45.0/255.0, blue: 45.0/255.0, alpha: 1.0)
+        
+        cell.textLabel?.textColor = UIColor(red: 241.0/255.0, green: 187.0/255.0, blue: 68.0/255.0, alpha: 1.0)
+        
         return cell
     }
     
-    //Mark - TableView Delegate Methods
+    //MARK - TableView Delegate Methods
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(itemArray[indexPath.row])
         
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    //MARK - Add New Notes
+    
+    
+    @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
     }
 }
