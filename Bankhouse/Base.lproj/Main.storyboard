@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -185,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bVy-5J-IVx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3447.826086956522" y="515.625"/>
+            <point key="canvasLocation" x="4357.971014492754" y="515.625"/>
         </scene>
         <!--Upcoming Events View Controller-->
         <scene sceneID="3ti-tw-i9U">
@@ -209,7 +210,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qnK-XI-xkO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2655.072463768116" y="961.60714285714278"/>
+            <point key="canvasLocation" x="3565.217391304348" y="961.60714285714278"/>
         </scene>
         <!--Members Area View Controller-->
         <scene sceneID="9nO-zo-MDS">
@@ -233,7 +234,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KnR-sb-uKE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1721.7391304347827" y="1095.5357142857142"/>
+            <point key="canvasLocation" x="2631.8840579710145" y="1095.5357142857142"/>
         </scene>
         <!--Our Teachings View Controller-->
         <scene sceneID="L72-Fy-YCv">
@@ -292,7 +293,8 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YWE-cd-gbj">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" name="MMyellow"/>
+                        <color key="barTintColor" name="MMgray45"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -319,6 +321,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="uQG-3p-nq0" kind="show" identifier="showNote" id="YcZ-eu-6eC"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -337,7 +342,50 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nwF-ap-70o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1371" y="900"/>
+            <point key="canvasLocation" x="-2800" y="909"/>
+        </scene>
+        <!--Note Details-->
+        <scene sceneID="lVG-Qq-tG5">
+            <objects>
+                <viewController id="uQG-3p-nq0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="by8-mn-yv4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dK2-tP-fZt">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="What is your goal today?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hKK-AJ-N0Q">
+                                        <rect key="frame" x="8" y="8" width="398" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YYZ-ow-Xv9">
+                                        <rect key="frame" x="8" y="46" width="398" height="679"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="0.94509803920000002" green="0.73333333329999995" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="cuW-dy-HAq"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Note Details" id="YUc-db-LXa">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Akj-xM-CpQ">
+                            <color key="tintColor" name="MMyellow"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wtG-0T-ik6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1965.217391304348" y="908.70535714285711"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="wFN-q2-T1b">
@@ -353,7 +401,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OzF-jX-dRq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-623" y="900"/>
+            <point key="canvasLocation" x="286.95652173913044" y="900"/>
         </scene>
         <!--Search-->
         <scene sceneID="bob-g1-q7h">
@@ -369,7 +417,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rqv-tv-FX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="173.91304347826087" y="900"/>
+            <point key="canvasLocation" x="1084.0579710144928" y="900"/>
         </scene>
         <!--More-->
         <scene sceneID="iYa-bf-bRr">
@@ -385,7 +433,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dAz-oV-U83" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="873.91304347826099" y="908.70535714285711"/>
+            <point key="canvasLocation" x="1784.057971014493" y="908.70535714285711"/>
         </scene>
         <!--My Tab Bar Controller-->
         <scene sceneID="1ES-Tm-cj3">
@@ -417,6 +465,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ccc-6r-362">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="MMyellow"/>
                         <color key="barTintColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.94509803921568625" green="0.73333333333333328" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -429,7 +478,25 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fp3-Xh-VGB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2117.3913043478265" y="900"/>
+            <point key="canvasLocation" x="-3614" y="909"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="XaJ-NN-7KH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aT7-Xy-Lbf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qcn-Hg-79i">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uQG-3p-nq0" kind="relationship" relationship="rootViewController" id="sos-DE-aqf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ok-Yz-w7e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2800" y="1613"/>
         </scene>
     </scenes>
     <resources>
@@ -439,5 +506,14 @@
         <image name="notepadGlyph" width="30" height="30"/>
         <image name="searchGlyph" width="30" height="30"/>
         <image name="starGlyph" width="30" height="30"/>
+        <namedColor name="MMgray45">
+            <color red="0.17647058823529413" green="0.17647058823529413" blue="0.17647058823529413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MMyellow">
+            <color red="0.94509803921568625" green="0.73333333333333328" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="YcZ-eu-6eC"/>
+    </inferredMetricsTieBreakers>
 </document>
