@@ -19,6 +19,7 @@
 		BD1BF83E22CD000400CA38C1 /* UpcomingEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1BF83D22CD000400CA38C1 /* UpcomingEventsViewController.swift */; };
 		BD1BF84022CD000E00CA38C1 /* MembersAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1BF83F22CD000E00CA38C1 /* MembersAreaViewController.swift */; };
 		BD43BE9A22E7DF69008D7B27 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43BE9922E7DF69008D7B27 /* MyTabBarController.swift */; };
+		BD43BEA022E9238C008D7B27 /* NotePadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43BE9F22E9238C008D7B27 /* NotePadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BD1BF83D22CD000400CA38C1 /* UpcomingEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventsViewController.swift; sourceTree = "<group>"; };
 		BD1BF83F22CD000E00CA38C1 /* MembersAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersAreaViewController.swift; sourceTree = "<group>"; };
 		BD43BE9922E7DF69008D7B27 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		BD43BE9F22E9238C008D7B27 /* NotePadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				BD1BF80522C559E500CA38C1 /* AppDelegate.swift */,
 				BD1BF80722C559E500CA38C1 /* ViewController.swift */,
 				BD1BF80922C559E500CA38C1 /* Main.storyboard */,
+				BD43BE9F22E9238C008D7B27 /* NotePadViewController.swift */,
 				BD1BF83522CCFEFF00CA38C1 /* HowWeWorkViewController.swift */,
 				BD1BF83722CCFFDE00CA38C1 /* OurTeachingsViewController.swift */,
 				BD1BF83922CCFFED00CA38C1 /* LatestNewsViewController.swift */,
@@ -160,6 +163,7 @@
 				BD1BF83E22CD000400CA38C1 /* UpcomingEventsViewController.swift in Sources */,
 				BD43BE9A22E7DF69008D7B27 /* MyTabBarController.swift in Sources */,
 				BD1BF83A22CCFFED00CA38C1 /* LatestNewsViewController.swift in Sources */,
+				BD43BEA022E9238C008D7B27 /* NotePadViewController.swift in Sources */,
 				BD1BF83622CCFEFF00CA38C1 /* HowWeWorkViewController.swift in Sources */,
 				BD1BF83C22CCFFF700CA38C1 /* PodcastViewController.swift in Sources */,
 				BD1BF84022CD000E00CA38C1 /* MembersAreaViewController.swift in Sources */,
